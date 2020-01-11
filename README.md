@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular 7 - Demo CRUD Application / Project for Beginners
 # Student Management
 ### Created By [Sangwin Gawande](http://sangw.in)
@@ -65,3 +66,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular-curd
+angular curd
+>>>>>>> 562b096372fd01b7ececd25cef6af12c28a55b3d
