@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open --port 4201",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --aot --target=production"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
     "core-js": "^2.5.4",
+    "express": "^4.17.1",
     "ngx-toastr": "^9.1.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
